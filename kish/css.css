@@ -1,0 +1,23 @@
+BODY {margin: 10 px 10 px; padding: 5 px 5 px; background-color: #0F0F0F}
+A:link {COLOR: #339933; font-size: 100%; TEXT-DECORATION: none}
+A:visited {COLOR: #FFFF00; font-size: 100%; TEXT-DECORATION: none}
+A:active {COLOR: #F5F5DC; font-size: 100%;TEXT-DECORATION: underline}
+A:hover {COLOR: #FFFFFF; font-size: 100%;  TEXT-DECORATION: underline}
+
+P {COLOR: #CCCCCC; FONT-SIZE: 100%}
+B.BLAU {COLOR: #bebebe; FONT-SIZE: 105%; TEXT-DECORATION: none}
+B.T {COLOR: #FFFFFF;FONT-SIZE: 155%;}
+B.BIG {FONT-SIZE: 125%; COLOR: #FF9900}
+B.TTT {FONT-STYLE: normal; FONT-SIZE: 98%; COLOR: #000000}
+B.ST {COLOR: #FFFFFF; background:#0F0F0F; TEXT-DECORATION: underline; FONT-SIZE: 99%}
+B.OO {FONT-SIZE: 115%; COLOR: #CCCCFF}
+B.W {FONT-SIZE: 110%; COLOR: #FFFFFF}
+B.WK {FONT-SIZE: 90%; COLOR: 003366; TEXT-DECORATION: underline}
+CITE {COLOR: 99CCFF}
+b.klein {font-size:10%; color:bebebe}
+H3 {FONT-SIZE: 90%; COLOR: 003366}
+H2 {COLOR: #999999}
+H4 {COLOR: #990033; font-size:110%; FONT-STYLE: italic}
+
+DD {COLOR: #666666; FONT-SIZE: 100%}
+DT {COLOR: #FFFFFF; FONT-SIZE: 100%}
