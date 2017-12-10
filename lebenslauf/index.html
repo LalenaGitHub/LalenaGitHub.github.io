@@ -1,294 +1,364 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Lebenslauf Lena Neumann</title>
-    <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	  
-    <!-- Bootstrap -->
-    <!-- Das neueste kompilierte und minimierte CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optionales Theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
-    <!-- Das neueste kompilierte und minimierte JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-
-  </head>
-  <body >
- 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" 
-              data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
-        <span class="sr-only">Navigation ein-/ausblenden</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Lebenslauf</a>
-    </div>
-
-    <!-- Alle Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#weiterb">Personendaten <span class="sr-only">(aktuell)</span></a></li>
-        <li><a href="#">Berufpraxis Russland  </a></li>
-	 
-        <li role="presentation" class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
-	     aria-expanded="false">Berufpraxis Deutschland <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Aktion</a></li>
-            <li><a href="#">Andere Aktion</a></li>
-            <li><a href="#">Irgendwas anderes</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Abgetrennter Link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Noch ein abgetrennter Link</a></li>
-          </ul>
-        </li>
-	<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forschungstätigkeit<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Aktion</a></li>
-            <li><a href="#">Andere Aktion</a></li>
-            <li><a href="#">Irgendwas anderes</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Abgetrennter Link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Noch ein abgetrennter Link</a></li>
-          </ul>
-        </li>      
-              <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Weiterbildung<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Aktion</a></li>
-            <li><a href="#">Andere Aktion</a></li>
-            <li><a href="#">Irgendwas anderes</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Abgetrennter Link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Noch ein abgetrennter Link</a></li>
-          </ul>
-        </li>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Lebenslauf Lena Neumann</title>
+      <!-- jQuery (wird für Bootstrap JavaScript-Plugins benötigt) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Bootstrap -->
+      <!-- Das neueste kompilierte und minimierte CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <!-- Optionales Theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <!-- Das neueste kompilierte und minimierte JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link href="/css/site.css" rel="stylesheet">
+      <link href="/googlemap/cssgooglemap/googlemap.css" rel="stylesheet">
+      <style>    
+       </style>
+   </head>
+   <body >
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" 
+                  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+               <span class="sr-only">Navigation ein-/ausblenden</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">Lebenslauf</a>
+            </div>
+            <!-- Alle Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#top">Personendaten <span class="sr-only">(aktuell)</span></a></li>
+                  <li><a href="#uni"> Studium  </a></li>
+                  <li><a href="#berufru">Berufpraxis Russland  </a></li>
+                  <li role="presentation" class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                        aria-expanded="false">Berufpraxis Deutschland <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#praktika">Praktikantin </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#iom">Wissenschaftliche Mitarbeiterin </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#mea">Projektingenieurin</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forschungstätigkeit<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#interausbildung">Interdisziplinäre Ausbildung </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#promotion">Promotion</a></li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+                      Weiterbildung<span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Selbststudium</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#alfa">Berufliche Qualifizierung</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#fortbildung">Fortbildung </a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#gast">Gasthörerstudium</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#sprachkurs">Sprachkurse</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Suchen">
+                  </div>
+                  <button type="submit" class="btn btn-default">Los</button>
+               </form>
+               <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+    
+       <div id ="top" class="hintergrundWeiss" style="height: 70px"></div>
+      
+       <div  class="panel panel-info"> <!--div top-->
+         <div class="media" style="padding-top: 50px;"> <!--div media-->
+            <div id="person" class="media-left">
+               <a href="#">
+               <img src="image/Bewerbungsfoto.jpg" alt="Mein Foto" class="media-object img-rounded"  style="width:120px">
+               </a>
+            </div>
+            <div class="media-body"><!--div media body-->
+               <!-- Spalten sind zunächst 50% breit und vergrößern sich auf Desktop-PCs auf 33.3% -->
+               <div class="row">
+                  <div class="col-md-4">
+                     <h2 class="media-heading"> Dr. Lena Neumann</h2>
+                     <address>
+                        <div>
+                           Judith-Auer-Strasse 10,<br>
+                           04317 Leipzig 
+                        </div>
+                        <abbr title="Telefonnummer">Tel.:</abbr> 017 83 449 859
+                     </address>
+                     <address>
+                        <a href="mailto:#">neumann-lena@web.de</a>
+                     </address>
+                  </div>
+                  <div class="col-md-4">
+                     <div style="font-weight:bold; padding-top: 40px">Geburtsdatum und Geburtsort: </div>
+                     <div>17.01.1976 – Kemerowo (Russland)</div>
+                     <div>Staatsangehörigkeit: Deutsch </div>
+                     <div>Familienstand: ledig </div>
+                  </div>
+                  <div class="col-md-4" >
+                     <!--AIzaSyA3_eijDI14_CxitMey-X6zXO8seAVxPeA  -->
+                     <div style="font-weight:bold; padding-top: 0px">Kemerowo Russland</div>
+                     <div id="map"></div>
+                  </div>
+               </div>
+            </div><!--div media body-->
+         </div> <!--div media-->
+      </div> <!--div top-->
        
-      </ul>
+      <div  id="alfa" class="panel panel-info">  <!--div alfa-->
+         <div class="panel-heading">
+            <h3 class="panel-title">Aktuelle Weiterbildung</h3>
+         </div>
+         <div class="panel-body">  <!--div panel-bpdy-->
+            <h4>Seit 08/2017</h4>
+            <div class="row">  <!--div row-->
+               <div class="col-md-4">
+                  <ul class="list-group">
+                     <li class="list-group-item list-group-item-success">
+                        <a href="https://www.alfatraining.de/gefoerderte-weiterbildung/l/stadt/leipzig-halle/kurs/apps-programmierung-android/N/0/0/kombi/java-und-apps-programmierung-android/#pos5" class="alert-link">
+                        <strong>Alfatraining</strong> - Bildungszentrum, Leipzig  </a> 
+                     </li>
+                     <li class="list-group-item">
+                        <div class="row">
+                           <div class="col-xs-6 col-md-3">
+                              <a href="/zertifikat/zertifikat_android.pdf" class="thumbnail">
+                              <img src="/zertifikat/zertifikat_android.jpg" alt="Apps-Programmierung Android">
+                              </a>
+                           </div>
+                           Apps-Programmierung Android (sehr gut)
+                        </div>
+                     </li>
+                     <li class="list-group-item">
+                        <div class="row">
+                           <div class="col-xs-6 col-md-3">
+                              <a href="/zertifikat/zertifikat_java.pdf" class="thumbnail">
+                              <img src="/zertifikat/zertifikat_java.jpg" alt="Objektorientierte Programmierung mit Java">
+                              </a>
+                           </div>
+                           Objektorientierte Programmierung mit Java <br>(sehr gut) 
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-4">
+                  <ul class="list-group">
+                     <li class="list-group-item list-group-item-success">
+                        <a href="https://www.udemy.com/user/neumann-3/"> 
+                            <strong>Udemy</strong> - Online-Kursplattform MOOC</a> 
+                     </li>
+                     <li class="list-group-item">Der komplette Web-Entwickler Kurs</li>
+                     <li class="list-group-item">Angular 4: Entwickle tolle Webseiten und Apps</li>
+                     <li class="list-group-item">Der Weg zum professionellen Softwareentwickler</li>
+                  </ul>
+               </div>
+               <div class="col-md-4">  <!--div right-->
+                  <ul class="list-group">
+                     <li class="list-group-item list-group-item-success">
+                        <a href="https://open.hpi.de/">
+                        <strong>openHPI</strong>: Internet-Bildungsplattform </a>
+                     </li>
+                     <li class="list-group-item">
+                        <div class="row">
+                           <div class="col-xs-6 col-md-3">
+                              <a href="/zertifikat/semanticweb-ConfirmationOfParticipation.pdf" class="thumbnail">
+                              <img src="/zertifikat/semanticweb-ConfirmationOfParticipation.jpg" alt="Semantic Web Technologies">
+                              </a>
+                           </div>
+                           Semantic Web Technologies
+						   <a title="Leistungsnachweis online" href="https://open.hpi.de/files/32c27999-5c3b-4545-80e0-45ac56cd70cb">
+                           <span class="glyphicon glyphicon-education" aria-hidden="true"> </span></a> 
+                        </div>
+                     <li class="list-group-item">
+                        <div class="row">
+                           <div class="col-xs-6 col-md-3">
+                              <a href="/zertifikat/mat-ws-ConfirmationOfParticipation.pdf" class="thumbnail">
+                              <img src="/zertifikat/mat-ws-ConfirmationOfParticipation.jpg" alt="Einführung in die Mathematik der Algorithmik">
+                              </a>
+                           </div>
+                              Einführung in die Mathematik der Algorithmik 
+							  <a title="Leistungsnachweis online" href="https://open.hpi.de/files/7e3f020e-60cd-4fc2-970f-4c8a6aece2f6">
+                              <span class="glyphicon glyphicon-education" aria-hidden="true"> </span></a> 
+                        </div>
+                     </li>
+                     <li class="list-group-item">Web-Technologien</li>
+                     <li class="list-group-item">Big Data Analytics</li>
+                  </ul>
+               </div> <!--div right-->
+            </div>  <!--div row-->
+         </div><!--div panel-bpdy-->
+       </div> <!--div alfa-->
 
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Suchen">
-        </div>
-        <button type="submit" class="btn btn-default">Los</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#weiter" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menü <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Aktion</a></li>
-            <li><a href="#">Andere Aktion</a></li>
-            <li><a href="#">Irgendwas anderes</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Abgetrennter Link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
- </nav>
- <div padding-top: 170px; >
-	------ kejfhkjsehfkjs
-</ >
-	 
+          
+     
+     
+        <div  id="mes" class="panel panel-info">  <!--div mea-->
+         <div class="panel-heading">
+            <h3 class="panel-title">Berufpraxis</h3>
+         </div>
+         <div class="panel-body">  <!--div panel-body-->  
+                    
+         <h4>11/2012 - 07/2017</h4>
+          
+        <dl>
+            <dt> <a href="www.meaware.de/">MEA Engineering GmbH, Leipzig</a></dt>
+          <dd>Softwareentwicklung und Anwendungsentwicklung</dd>
+            <br>
+          <dt>Anwendungsentwicklerin</dt>
+          <dd>
+            <ul>
+               <li>Programmierung von Anwendungen auf den Gebieten der Verfahrenstechnik der Metallurgie, Prozess-Steuerung und Computersimulation technischer Verfahren</li>
+                <li>Neuentwicklung, Übernahme, Weiterentwicklung bestehender Softwareprojekte (Delphi und C) und Einarbeitung in neue Programmiersprachen (Java und JavaScript) </li>
+              <li>Erstellung und Implementierung eines webbasierten Fertigungsleitsystems (HTML / CSS / JavaScript / Ajax / jQuery etc.)</li>
+              <li>Datenbankmanagement (Oracle, Microsoft SQL, MySQL, SQLite und MariaDB)</li>
+            </ul>
+      
+          </dd>
+          </dl>     
+             
+             
 
-	 
-	 
-<div class="media" style="padding-top: 170px;">
-  <div class="media-left">
-    <a href="#">
-     <img src="image/Bewerbungsfoto.jpg" alt="Mein Foto" class="media-object img-rounded"  style="width:50px">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading"> Dr. Lena Neumann  </h4>
-   
-Judith-Auer-Strasse 10, 04317 Leipzig < 
-017 83 449 859  
- neumann-lena@web.de  
-		  
-Geburtsdatum und Geburtsort:  
-17.01.1976 – Kemerowo (Russland)  
-Staatsangehörigkeit: Deutsch  
-Familienstand: ledig  
-  </div>
-</div>
-	 
-		  
-	 
-		  
-		  
-</p>
-
-
-
-
-Lebenslauf
-
-
-
-
-
-
-Weiterbildung		Alfatraining Bildungszentrum, Leipzig 
-Seit 08/2017			"Apps-Programmierung Android" (sehr gut)
-				"Objektorientierte Programmierung mit Java" (sehr gut) 
-				
-				Udemy - Online Plattform "Webentwicklung"
-				
-				Open HPI - Bildungsplattform des Potsdamer Hasso-Plattner-Instituts
-				"Semantik Web Technologies",  "Big Data" und  "Java"
- 
-Berufpraxis 			Projektingenieurin, MEA Engineering GmbH, Leipzig
-11/2012 - 07/2017	 	Softwareentwicklung und Anwendungsentwicklung
-
-Promotion			"Anfangsstadien des ionenstrahlgestützten epitaktischen Wachstums 09/2013			von Galliumnitrid-Schichten auf Siliziumkarbid" (gut) 
-
-Forschungstätigkeit 		Leibniz-Institut für Oberflächenmodifizierung, Leipzig		 
-01/2008 - 10/2012	Wissenschaftliche Mitarbeiterin (Promotion),
-	Wissenschaftlicher Gast, Koordinatorin der Forschungsseite
-
-Interdisziplinäre Ausbildung 	
-
-01/2008-10/2012	Research Academy Leipzig, Universität Leipzig, 
-	Graduiertenschule "Leipzig School of Natural Sciences – 
-	Building with Molecules and Nano-objects" (1,7)
-	
-Praktikum 	Praktika bei Krüger EDV Systemhaus, Markranstädt
-09/2007-11/2007	Webdesign und Datenbankentwicklung 
- 
-Fortbildung 	Fernstudium, Fachhochschule Trier (2,5)
-09/2006-10/2007	Fachkraft für Anwendungsentwicklung von Softwaresystemen
-
-Gasthörerstudium		Universität Leipzig 
-10/2006-10/2007
-				
-Sprachkurse			Stipendiatin der Otto Benecke Stiftung e.V.	 
-09/2005-10/2007	Sprachkurs Deutsch als Fremdsprache 
-11/2004-08/2005	Dresdener Bildungsakademie, Sprachkurs Deutsch  
-
-Berufpraxis 			Staatliche Verwaltung des Gebietes Kemerowo/Russland
-12/1998-11/2004	Angestellte, EDV-Abteilung
-
-Studium			Staatlichen Universität Kemerowo/Russland	 
-09/1993-07/1998	Studienrichtung: Festkörperphysik (1,3)
-
-Sprachen			Russisch (Muttersprache), Deutsch, Englisch
-Dr. Lena Neumann
-						Judith-Auer-Strasse 10, 04317 Leipzig
-						 017 83 449 859, neumann-lena@web.de
-
-Erfahrungen in Physik 
-Materialcharakterisierung von ultradünnen halbleitenden Schichten während und nach der Abscheidung mit Röntgenbeugung und Rastertunnelmikroskopie sowie ex-situ Analyse. Umbau und Modernisierung einer UHV-Anlage für ionenstrahlgestützte Beschichtung: Austausch und Installation von Vakuum-Komponenten. Feinfertigung und Präparation von Proben und AFM/STM-Messsonden.     
-<!-- Einzelner Button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Aktion <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="#">Aktion</a></li>
-    <li><a href="#">Andere Aktion</a></li>
-    <li><a href="#">Irgendwas anderes</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Abgetrennter Link</a></li>
-  </ul>
-</div>	 
-Wissenschaftliche Software	
-Orgin, UNI-Fit, SPIP, RayFlex Analyse, CaRIne 
-
-BuildMona Graduiertenschule, Leipzig 
-Nanomanipulation; Synthese; multifunktionale Gerüstsubstanzen; komplexe Nanostrukturen; von Biomolekülen zu Zellen: Liganden, Rezeptoren und Signaltransduktion; computergestützte Rationalisierung der Laborarbeit; LaTeX     
-
-<div id = "weiterb">
-Erfahrungen in Informatik und Ingenieurwesen
-Computersimulation von physikalischen Prozessen der Zinkbadchargierung und Feuerverzinkung 
-(C, Java, Oracle)
-</div>	
-Auswertungswerkzeug zur Visualisierung für Kokerei und Kohleeinbalsanlage (Delphi, MS SQL)
-Visualisierung und Steuerung einer Rohrtrennanlage (Delphi)
-Ofenführungssystem, Prozess¬visualisierung für eine Walzstraße (Delphi, Oracle, MariaDB)
-
-
-Erfahrungen in Web-Entwicklung und Programmieren
-
-Fernstudium, Fachhochschule Trier
-Web-Technologien (HTML/XML)
-Datenbankmanagementsysteme  
-Mathematik (Statistik, Graphentheorie, Lineare Algebra)
-
-Praktikum 
-Konzeption, Entwicklung und Webdesign von Online-Reiseportal (HTML/CSS/PHP/JavaScript)
-Layouterstellung (Photoshop, Image Ready, CorelDRAW)
-Entwicklung und Verwaltung von datenbankbasierten Webanwendungen (PHP/MySQL/phpMyAdmin)
-Web-Anwendungen für dynamische Inhalte 
-
-Berufpraxis
-Erstellung und Web-Implementierung eines Fertigungsleitsystems, webbasiertes HMI 
-HTML / CSS / PHP / MySQL 
-JavaScript, jQuery, EasyUI 
-Ajax, JSON
-SVG, d3-Datenvisualisierung
-
-Aktuelle Weiterbildung und Kurse im Selbststudium
-Der komplette Webentwickler (HTML5 / CSS3 / PHP7, JavaScript / JQuery / Bootstrap, Phyton)
-Semantik Web Technologies, Big Data, Einführung in die Mathematik der Algorithmik 
-Java SE 8, JUnit, Java FX
-Apps-Programmierung Android , Angular 4  
-Git, GitHub
-
-Programmierumgebung PL/SQL-Developer, Eclipse IDE, NetBeans, Android Studio
-Versionsverwaltung Git, SVN, Jira
-
-Meine Leistungsnachweise
-Open HPI: Bildungsplattform des Potsdamer Hasso-Plattner-Instituts 
-Teilnahmebestätigung 
-	Semantic Web Technologies  
-	Einführung in die Mathematik der Algorithmik
-	Wie funktioniert eine Suchmaschine?
-	Java für Einsteiger
-
-Geekbrains: IT-Lernportal, Moskau
-Completed the course 
-	Web development intensive. Personal site creation
-	Java Intensive Course. Introduction to Programming Language
-	Android. Easy Start. Creating Game Application For a Mobile Device
-
-  </div>
-  
-<!-- Einzelner Button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Aktion <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="#">Aktion</a></li>
-    <li><a href="#">Andere Aktion</a></li>
-    <li><a href="#">Irgendwas anderes</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="#">Abgetrennter Link</a></li>
-  </ul>
-</div>	 
-    
-    
-
-  </body>
+      </div> <!--div panel-body-->  
+       </div> <!--div mea-->
+       
+       
+      <div id ="promotion" class="alert alert-info" role="alert">
+         <h4>09/2013</h4>
+         <h3>Promotion</h3>
+         "Anfangsstadien des ionenstrahlgestützten epitaktischen Wachstums von Galliumnitrid-Schichten auf Siliziumkarbid" (gut) 
+      </div>
+      <div id ="iom" class="alert alert-info" role="alert">
+         <h4>01/2008 - 10/2012</h4>
+         <h3>Forschungstätigkeit </h3>
+         Leibniz-Institut für Oberflächenmodifizierung, Leipzig		 
+         Wissenschaftliche Mitarbeiterin (Promotion),
+         Wissenschaftlicher Gast, Koordinatorin der Forschungsseite
+      </div>
+      <div id ="interausbildung" class="alert alert-info" role="alert">
+         <h4>01/2008-10/2012</h4>
+         <h3> Interdisziplinäre Ausbildung </h3>
+         Research Academy Leipzig, Universität Leipzig, 
+         Graduiertenschule "Leipzig School of Natural Sciences – 
+         Building with Molecules and Nano-objects" (1,7)
+      </div>
+      <div id="praktika" class="alert alert-warning" role="alert">
+         <h4>09/2007-11/2007</h4>
+         <h3>  Praktikum </h3>
+         Praktika bei Krüger EDV Systemhaus, Markranstädt
+         Webdesign und Datenbankentwicklung 
+      </div>
+      <div id="fortbildung" class="alert alert-info" role="alert">
+         <h4>09/2006-10/2007</h4>
+         <h3>Fortbildung</h3>
+         Fernstudium, Fachhochschule Trier (2,5)
+         Fachkraft für Anwendungsentwicklung von Softwaresystemen
+      </div>
+      <div id="gast" class="alert alert-info" role="alert">
+         <h4>10/2006-10/2007</h4>
+         <h3>          Gasthörerstudium</h3>
+         Universität Leipzig 
+      </div>
+      <div id="sprachkurs" class="alert alert-info" role="alert">
+         <h3>Sprachkurse</h3>
+         <h4>09/2005-10/2007</h4>
+         Stipendiatin der Otto Benecke Stiftung e.V.
+         Sprachkurs Deutsch als Fremdsprache 
+         <h4>11/2004-08/2005</h4>
+         Dresdener Bildungsakademie, Sprachkurs Deutsch 
+      </div>
+      <div id="berufru"  class="alert alert-warning" role="alert">
+         <h4>12/1998-11/2004</h4>
+         <h3>Berufpraxis Russland</h3>
+         Staatliche Verwaltung des Gebietes Kemerowo / Russland
+         Angestellte, EDV-Abteilung
+      </div>
+      <div id="uni"  class="alert alert-info" role="alert">
+         <h4>09/1993-07/1998</h4>
+         <h3>Studium</h3>
+         Staatlichen Universität Kemerowo/Russland	 
+         Studienrichtung: Festkörperphysik (1,3)
+      </div>
+      Sprachen			Russisch (Muttersprache), Deutsch, Englisch
+      <div>
+         <h3>Erfahrungen in Physik</h3>
+         Materialcharakterisierung von ultradünnen halbleitenden Schichten während und nach der Abscheidung mit Röntgenbeugung und Rastertunnelmikroskopie sowie ex-situ Analyse. Umbau und Modernisierung einer UHV-Anlage für ionenstrahlgestützte Beschichtung: Austausch und Installation von Vakuum-Komponenten. Feinfertigung und Präparation von Proben und AFM/STM-Messsonden.     
+         Wissenschaftliche Software	
+         Orgin, UNI-Fit, SPIP, RayFlex Analyse, CaRIne 
+         BuildMona Graduiertenschule, Leipzig 
+         Nanomanipulation; Synthese; multifunktionale Gerüstsubstanzen; komplexe Nanostrukturen; von Biomolekülen zu Zellen: Liganden, Rezeptoren und Signaltransduktion; computergestützte Rationalisierung der Laborarbeit; LaTeX     
+         Erfahrungen in Informatik und Ingenieurwesen
+         Computersimulation von physikalischen Prozessen der Zinkbadchargierung und Feuerverzinkung 
+         (C, Java, Oracle)
+         Auswertungswerkzeug zur Visualisierung für Kokerei und Kohleeinbalsanlage (Delphi, MS SQL)
+         Visualisierung und Steuerung einer Rohrtrennanlage (Delphi)
+         Ofenführungssystem, Prozess¬visualisierung für eine Walzstraße (Delphi, Oracle, MariaDB)
+         Erfahrungen in Web-Entwicklung und Programmieren
+         Fernstudium, Fachhochschule Trier
+         Web-Technologien (HTML/XML)
+         Datenbankmanagementsysteme  
+         Mathematik (Statistik, Graphentheorie, Lineare Algebra)
+         Praktikum 
+         Konzeption, Entwicklung und Webdesign von Online-Reiseportal (HTML/CSS/PHP/JavaScript)
+         Layouterstellung (Photoshop, Image Ready, CorelDRAW)
+         Entwicklung und Verwaltung von datenbankbasierten Webanwendungen (PHP/MySQL/phpMyAdmin)
+         Web-Anwendungen für dynamische Inhalte 
+         Berufpraxis
+         Erstellung und Web-Implementierung eines Fertigungsleitsystems, webbasiertes HMI 
+         HTML / CSS / PHP / MySQL 
+         JavaScript, jQuery, EasyUI 
+         Ajax, JSON
+         SVG, d3-Datenvisualisierung
+         Aktuelle Weiterbildung und Kurse im Selbststudium
+         Der komplette Webentwickler (HTML5 / CSS3 / PHP7, JavaScript / JQuery / Bootstrap, Phyton)
+         Semantik Web Technologies, Big Data, Einführung in die Mathematik der Algorithmik 
+         Java SE 8, JUnit, Java FX
+         Apps-Programmierung Android , Angular 4  
+         Git, GitHub
+         Programmierumgebung PL/SQL-Developer, Eclipse IDE, NetBeans, Android Studio
+         Versionsverwaltung Git, SVN, Jira
+         Meine Leistungsnachweise
+         Open HPI: Bildungsplattform des Potsdamer Hasso-Plattner-Instituts 
+         Teilnahmebestätigung 
+         Semantic Web Technologies  
+         Einführung in die Mathematik der Algorithmik
+         Wie funktioniert eine Suchmaschine?
+         Java für Einsteiger
+         Geekbrains: IT-Lernportal, Moskau
+         Completed the course 
+         Web development intensive. Personal site creation
+         Java Intensive Course. Introduction to Programming Language
+         Android. Easy Start. Creating Game Application For a Mobile Device
+      </div>
+      <script src="/googlemap/jsgooglemap/travel.js"></script>
+      <!--script src="/googlemap/jsgooglemap/travel.js"></script-->
+      <!--script src="/googlemap/jsgooglemap/googlemap.js"></script-->
+      <!--script src="/googlemap/jsgooglemap/api.js"></script-->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3_eijDI14_CxitMey-X6zXO8seAVxPeA&callback=initMap&language=DE&region=DE"
+         async defer></script>
+   </body>
 </html>
